@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页 - Painkiller的网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/">Painkiller的网站</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于</a></li>
+            <li><a href="#services">服务</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <div class="hero-section" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">创新设计，卓越体验</h1>
+            <p class="hero-subtitle">让我们一起创造精彩</p>
+            <a href="#contact" class="cta-button">立即联系</a>
+        </div>
+        <div class="hero-overlay"></div>
+        <img src="pic1.jpg" alt="首页图片">
+    </div>
+
+    <section id="about" class="about-section">
+        <h2>关于我们</h2>
+        <div class="about-grid">
+            <div class="about-card">
+                <i class="fas fa-rocket"></i>
+                <h3>创新精神</h3>
+                <p>持续创新，追求卓越</p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-users"></i>
+                <h3>专业团队</h3>
+                <p>经验丰富的精英团队</p>
+            </div>
+            <div class="about-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>成长历程</h3>
+                <p>不断进步，持续发展</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2>我们的团队</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="person1.jpg" alt="人物1">
+                <h3>薛红菊</h3>
+            </div>
+            <div class="service-card">
+                <img src="person2.jpg" alt="人物2">
+                <h3>踢卡</h3>
+            </div>
+            <div class="service-card">
+                <img src="person3.jpg" alt="人物3">
+                <h3>苹果干</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>联系我们</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">邮箱</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">留言</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">发送消息</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>联系方式</h4>
+                <p><i class="fas fa-phone"></i> 电话：123-456-789</p>
+                <p><i class="fas fa-envelope"></i> 邮箱：info@example.com</p>
+            </div>
+            <div class="footer-section">
+                <h4>关注我们</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-weixin"></i></a>
+                    <a href="#"><i class="fab fa-weibo"></i></a>
+                    <a href="#"><i class="fab fa-qq"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Painkiller的网站. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
